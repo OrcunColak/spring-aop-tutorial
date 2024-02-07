@@ -1,5 +1,6 @@
 package com.colak.springaoptutorial.controller;
 
+import com.colak.springaoptutorial.annotation.LogRequestResponse;
 import com.colak.springaoptutorial.annotation.RedisLock;
 import com.colak.springaoptutorial.annotation.SpecificParameter;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,6 +14,7 @@ public class ExampleController {
 
     // http://localhost:8080/api/aop/hello
     @GetMapping(path = "hello")
+    @LogRequestResponse
     public String hello() {
         return "hello";
     }

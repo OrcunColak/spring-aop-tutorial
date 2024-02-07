@@ -1,4 +1,4 @@
-package com.colak.springaoptutorial.aspect;
+package com.colak.springaoptutorial.aspect.before;
 
 import com.colak.springaoptutorial.annotation.SpecificParameter;
 import jakarta.servlet.http.HttpServletRequest;

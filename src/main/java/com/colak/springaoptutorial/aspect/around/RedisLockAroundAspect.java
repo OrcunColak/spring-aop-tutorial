@@ -1,4 +1,4 @@
-package com.colak.springaoptutorial.aspect;
+package com.colak.springaoptutorial.aspect.around;
 
 import com.colak.springaoptutorial.annotation.RedisLock;
 import lombok.extern.slf4j.Slf4j;

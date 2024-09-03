@@ -1,6 +1,6 @@
-package com.colak.springaoptutorial.aspect.before;
+package com.colak.springtutorial.aspect.before;
 
-import com.colak.springaoptutorial.annotation.SpecificParameter;
+import com.colak.springtutorial.annotation.SpecificParameter;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;

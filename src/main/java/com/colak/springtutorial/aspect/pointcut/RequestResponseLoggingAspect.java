@@ -1,4 +1,4 @@
-package com.colak.springaoptutorial.aspect.pointcut;
+package com.colak.springtutorial.aspect.pointcut;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;

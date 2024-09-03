@@ -1,11 +1,9 @@
-package com.colak.springaoptutorial.aspect.pointcut;
+package com.colak.springtutorial.aspect.pointcut;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.Signature;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class RequestResponseLoggingAspectTest {
 

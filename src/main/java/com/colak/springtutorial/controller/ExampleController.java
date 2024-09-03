@@ -1,8 +1,8 @@
-package com.colak.springaoptutorial.controller;
+package com.colak.springtutorial.controller;
 
-import com.colak.springaoptutorial.annotation.LogRequestResponse;
-import com.colak.springaoptutorial.annotation.RedisLock;
-import com.colak.springaoptutorial.annotation.SpecificParameter;
+import com.colak.springtutorial.annotation.LogRequestResponse;
+import com.colak.springtutorial.annotation.RedisLock;
+import com.colak.springtutorial.annotation.SpecificParameter;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

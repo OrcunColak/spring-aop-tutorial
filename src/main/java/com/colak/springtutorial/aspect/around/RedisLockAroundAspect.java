@@ -1,6 +1,6 @@
-package com.colak.springaoptutorial.aspect.around;
+package com.colak.springtutorial.aspect.around;
 
-import com.colak.springaoptutorial.annotation.RedisLock;
+import com.colak.springtutorial.annotation.RedisLock;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

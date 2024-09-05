@@ -24,7 +24,7 @@ public class RequestResponseLoggingAspect {
     @Before("logAnnotationPointcut()")
     public void logBefore(JoinPoint joinPoint) {
         Signature signature = joinPoint.getSignature();
-        log.info("Before " + signature.getName());
+        log.info("Before {}", signature.getName());
     }
 
 
@@ -33,11 +33,11 @@ public class RequestResponseLoggingAspect {
     public void logAfterReturning(JoinPoint joinPoint, Object result) {
         // Logging the response
         Signature signature = joinPoint.getSignature();
-        log.info("After " + signature.getName() + "() returned value " + result);
+        log.info("After {}() returned value {}", signature.getName(), result);
 
         // Logging the response status
         if (result instanceof ResponseEntity<?> responseEntity) {
-            log.info("Response status: " + responseEntity.getStatusCode());
+            log.info("Response status: {}", responseEntity.getStatusCode());
         }
     }
 

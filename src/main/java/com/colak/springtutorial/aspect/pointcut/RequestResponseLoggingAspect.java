@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 public class RequestResponseLoggingAspect {
 
     // Define the pointcut for LogRequestResponse annotation
-    @Pointcut("@annotation(com.colak.springaoptutorial.annotation.LogRequestResponse)")
+    @Pointcut("@annotation(com.colak.springtutorial.annotation.LogRequestResponse)")
     public void logAnnotationPointcut() {
     }
 
